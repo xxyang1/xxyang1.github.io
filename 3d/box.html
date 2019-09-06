@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				-webkit-perspective: 2500;
+			}
+			.box{
+				width: 400px;
+				height: 400px;
+				
+				margin: 100px auto;
+			    position: relative;		   
+			    animation: name 4s linear infinite; 
+			    transform-style: preserve-3d;
+				/*默认旋转点是元素的中心点顺时针旋转*/
+				/*animation: name 3s linear infinite;
+				transform-origin:left 100px 100px ;*/
+			}
+
+			.box>div{
+				width: 400px;
+				height: 400px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				text-align: center;
+				line-height: 400px;
+				font-size: 40px;
+				transition: all 2s linear; 
+			}
+			.box>div:nth-of-type(1){
+				background-color: red;
+				transform: translateZ(-200px);
+			}
+			.box:hover div:nth-of-type(1){
+				transform: translateZ(-400px);
+			} 
+			.box>div:nth-of-type(2){
+				background-color: green;
+				transform: translateZ(200px);
+			}
+            .box:hover div:nth-of-type(2){
+				transform: translateZ(400px);
+			}
+			.box>div:nth-of-type(3){
+				background-color: orange;
+				transform: rotateX(90deg) translateZ(200px);
+			}
+            .box:hover div:nth-of-type(3){
+				transform: rotateX(90deg) translateZ(400px);
+				
+			}
+			.box>div:nth-of-type(4){
+				background-color: yellow;
+				transform: rotateX(90deg) translateZ(-200px);
+			}
+            .box:hover div:nth-of-type(4){
+				transform: rotateX(90deg) translateZ(-400px);
+				
+			}
+			.box>div:nth-of-type(5){
+				background-color: pink;
+				transform: rotateY(90deg) translateZ(200px);
+			}
+            .box:hover div:nth-of-type(5){
+				transform: rotateY(90deg) translateZ(400px);
+				
+			}
+			.box>div:nth-of-type(6){
+				background-color: purple;
+				transform: rotateY(90deg) translateZ(-200px);
+			}	
+            .box:hover div:nth-of-type(6){
+				transform: rotateY(90deg) translateZ(-400px);
+				
+			}	
+			@-webkit-keyframes name{
+				from{transform: rotateY(0) rotateX(0);}
+				to{transform: rotateY(360deg) rotateX(360deg);}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+				
+			
+		</div>
+	</body>
+</html>
