@@ -1,0 +1,337 @@
+body,ul,li,p,span,a,h3{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.heads{
+    width: 100%;
+    height: 44px;
+    
+    position: relative;
+}
+.head .a1{
+    z-index: 120;
+    position: absolute;
+    width: 40px;
+    height: 44px;   
+}
+.head .dl{
+    margin: 14px 0 0 15px;
+    width: 20px;
+    height: 18px;
+    display: block;
+    background: url(img/1.png) no-repeat;
+    background-size: 100% 100%;
+}
+form{
+    display: block;
+    overflow: hidden;
+    margin: 0 10px 0 40px;
+    padding: 0;
+    height: 44px;
+}
+form .a2{
+    width: 80%;
+    background: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    /* width: 100%; */
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    overflow: hidden;
+ 
+    font-size: 12px;
+}
+.a3{
+    z-index: 120;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 44px;
+}
+.a3 .dl1{
+    display: inline-block;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 14px; 
+}
+.a4{
+    width: 20px;
+    height: 15px;
+    background: url(img/2.png) no-repeat;
+    background-size: 20px 15px;
+    margin: 8px 8px 0 15px;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+.a5{
+    display: block;
+    width: 18px;
+    height: 15px;
+    background: url(https://st.360buyimg.com/so/images/search/jd-sprites.png?__inline) no-repeat;
+    background-position: -80px 0;
+    background-size: 200px;
+    margin-left: 10px;
+    margin: 8px 0 0 15px;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+.a6{
+    content: "";
+    position: absolute;
+    border-right: 1px solid #ddd;
+    top: 0;
+    left: 26px;
+    height: 16px;  
+}
+.sousuo{
+    /* border: 1px solid red; */
+    border: 0;
+    font-size: 12px;
+    color: #232326;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin: 0 0 0 5px;
+    white-space: nowrap;
+    width: 60%;
+    line-height: 30px;
+}
+.bj{
+    background-image: linear-gradient(0deg,#f1503b,#c82519 50%);
+    position: absolute;
+    top: 0;
+    height: 141px;
+    width: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: -100;
+}
+.lb{
+    width: 90%;
+    height: 140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.lb img{
+    width: 100%;
+    height: 140px;
+}
+#img{
+    
+}
+.mid{
+    width: 100%;
+    height: 100px;
+}
+.mid img{
+    width: 100%;
+}
+.mid ul li{
+    display: block;
+    float: left;
+
+}
+.a,.b,.c{
+    width: 33.3%;
+    height: 100px;
+}
+.mid2{
+    width: 100%;
+    height: 140px;
+   
+}
+.mid2 li{
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.mid2 li img{
+    width: 40px;
+    height: 40px;
+}
+.mid2 li span{
+    width: 75px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    font-size: 10px;
+    color: #666;
+}
+.title-wrap{
+    background: url(img/bjt.png);
+    width: 90%;
+    height: 34px;
+    background-size: contain;
+    margin: 0 auto;
+    background: white;
+    
+}
+.title-wrap .tt{
+    display: inline-block;
+    width: 30%;
+    height: 34px; 
+    display: inline-block;
+    background-size: contain;
+   text-align: center; 
+}
+.title-wrap .tt img{
+    width: 80%;
+    height: 25px;
+    margin-top: 5px;
+}
+.hd{
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+   background: white;
+}
+.hd li{
+    display: block;
+    float: left;
+    width: 20%;
+    height:120px;
+}
+.hd li img{
+    width: 66px;
+    height: 66px;
+}
+.hd li .d1{
+    display: block;
+    width: 70px;
+    height: 18px;
+    color: red;
+    text-align: center;
+
+}
+.hd li .d2{
+    display: block;
+    width: 70px;
+    height: 18px;
+    text-align: center;
+    position: relative;
+    color: #686868;
+}
+.hd li .d2 hr{
+    position: absolute;
+    left: 25%;
+    top: 3px;
+    width: 100%;
+    height: 1px;
+    background-color: #686868;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 0;
+}
+body{
+    background: #fff;
+}
+.biglogo{
+    width: 100%;
+    height: 115px;
+}
+.biglogo img{
+    width: 100%;
+    height: 100%;
+}
+.mid3{
+    width: 100%;
+    height: 35px;
+}
+.mid3 img{
+    width: 100%;
+    height: 100%;
+}
+.djxy{
+    width: 95%;
+    height: 240px;
+    margin: 0 auto;
+}
+.djxy li{
+    width: 49%;
+    height: 120px;
+    display: block;
+    float: left;
+}
+.djxy li .gr{
+    display: block;
+    width: 70%;
+    height: 22px;
+    line-height: 110%;
+}
+.djxy li .grr{
+    width: 80%;
+    height: 15px;
+    font-size: 10px;
+    display: block;
+}
+.djxy li img{
+   width: 40%;
+   height: 60px;
+   margin-right: 10px;
+   margin-top: 10%;
+}
+.mid4{
+    width: 100%;
+    height: 35px;
+}
+.mid4 img{
+    width: 100%;
+    height: 100%;
+}
+.mrg{
+    width: 95%;
+    height: 247px;
+}
+.mrg li{
+    display: block;
+    float: left;
+    width: 25%;
+    height: 120px;
+}
+.mrg li div{
+   width:100%;
+   height: 38px; 
+   text-align: center;
+}
+.mrg li div p{
+    font-size: 12px;
+}
+.mrg li img{
+    width: 60%;
+    height: 60px;
+    margin-left: 20%;
+ }
+ .bottom{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #ccc;
+ }
+ .bottom li {
+     float: left;
+     display: block;
+     width: 20%;
+ }
+ .bottom li img{
+     width: 100%;
+   
+ }
+ .bai{
+     width: 100%;
+     height: 100px;
+ }
