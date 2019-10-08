@@ -1,0 +1,689 @@
+html,body,ul,li,p,span,a,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+html{
+font-size: 100px;
+}
+body{
+background: #f4f4f4;
+font-size: 16px;
+}
+a{
+text-decoration: none;
+}
+.zt{
+    width: 3.75rem;
+    min-height: 6rem;
+    background-color: #fff;
+    font-size: .24rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.head{
+    width: 100%;
+    height: 0.5rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/top_bg_936a739.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-sizing: border-box;
+}
+.head .a1{
+    width: 0.4rem;
+    height: 0.4rem;
+    border: 1px #fff solid;
+    border-radius: 3rem;
+    box-sizing: border-box;
+    margin: 0.05rem 0.05rem 0.05rem 0.1rem;
+    float: left;
+}
+.head .a1 img{
+    width: 100%;
+    height: 100%;
+}
+.sign{
+    width: 1rem;
+    height: 0.4rem;
+    display: block;
+    float: left;
+    margin: -0.01rem 0.05rem 0.05rem 0.05rem;
+    
+    color: #fff;
+}
+.sign span{
+   font-size: 14px;
+}
+.sign p{
+    font-size: 12px;
+}
+.down{
+    display: block;
+    width: 0.7rem;
+    height: 0.3rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/down_6a819e3.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.4rem;
+}
+.ss{
+    width: 0.3rem;
+    height: 0.3rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/icon/i_search_f5510ff.png) no-repeat center center;
+    background-size: 0.2rem 0.2rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.05rem;
+}
+.lbt{
+    width: 100%;
+    height: 2.5rem;  
+    overflow: initial;
+}
+.lbt .swiper-container{
+	width: 100%;
+    height: 2.5rem;
+} 
+.lbt .swiper-slide img{
+	width: 100%;
+    height: 100%;
+} 
+.downgame{
+    width: 1.27rem;
+    height: 0.42rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/down2_b40166c.jpg) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -.25rem;
+    display: block;
+    z-index: 2;
+}
+.warp{
+    width: 100%;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.ip{
+    width: 100%;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+}
+.ip h2{
+    /* height: 0.23rem;
+    text-align: center; */
+    display: block;
+}
+.ip h2 img{
+    width: 100%;
+    height: 100%;
+}
+.dt{
+    width: 100%;
+    height: 1.36rem;
+    margin-top: 0.2rem;
+}
+.dt .ygw{
+   width: 1.12rem;
+   height: 1.36rem;
+   display: block;
+   float: left;
+   margin: 0 0.2rem 0.2rem 0.6rem;
+   position: relative;
+}
+.dt .bwp{
+    width: 1.12rem;
+    height: 1.36rem;
+    display: block;
+    float: left;
+    margin: 0 0.2rem 0.2rem 0.1rem;
+    position: relative;
+ }
+.dt a img{
+    width: 100%;
+    height: 100%;
+}
+.ygw1{
+    display: block;
+    bottom: 0;
+    left: 0.05rem;
+    width: 0.97rem;
+    height: 0.5rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/logo_ygw_8d091f7.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+.bwp1{
+    display: block;
+    top: 0.1rem;
+    left: -0.2rem;
+    width: 0.47rem;
+    height: 1.2rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/logo_bwp_604ac90.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+
+}
+.newwrap{
+    width: 100%;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 6.6rem;
+    margin-top: -0.2rem;
+}
+.newwrap h2{
+    /* height: 0.23rem;
+    text-align: center; */
+    display: block;
+}
+.newwrap h2 img{
+   width: 100%;
+   height: 100%;
+}
+.bigbox{
+    width: 100%;
+    height: 100%;
+  
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 5.4rem;
+  
+}
+.box li{
+    width: 1.72rem;
+    height: 1.73rem;
+    display: block;
+    float: left;
+    border: 2px solid gray;
+    margin: 0 0 0.1rem 0.1rem;
+}
+.box li a{
+    width: 1.68rem;
+    height: 1.69rem;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.box li a img{
+    width: 100%;
+    height: 1.25rem;
+}
+.box .b1{
+    width: 1.68rem;
+    height: 0.32rem;
+    font-size: 14px;
+    color: #000;
+}
+.box li a span{
+    width: 1.6rem;
+    height: 0.5rem;
+    display: block;
+    margin: 0.12rem auto 0.1rem;
+    font-size: 14px;
+    color: #000;
+}
+.box li a p{
+    width: 1.6rem;
+    height: 0.48rem;
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    color: gray;
+    overflow: hidden;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    /*控制在3行*/
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    
+}
+.box li a em{
+    width: 0.6rem;
+    height: 0.4rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/icon/i_arrow_76d1670.png) no-repeat left center;
+    background-size: 100% 0.05rem;
+    position: absolute;
+    bottom: 0.1rem;
+    right: 0.16rem;
+    display: block;
+}
+.next{
+    width: 0.45rem;
+    height: 0.22rem;
+  
+    font-size: .12px;
+    color: #333;
+    text-align: center;
+    line-height: 0.2rem;
+    position: absolute;
+    bottom: 0.2rem;
+    right: 0.5rem;
+}
+.prev{
+    width: 0.45rem;
+    height: 0.22rem;
+   
+    font-size: .12px;
+    color: #333;
+    text-align: center;
+    line-height: 0.2rem;
+    position: absolute;
+    bottom: 0.2rem;
+    right: 1rem;
+}
+.sz{
+    width: 3.75rem;
+    height: 2.23rem;
+   
+}
+.sz h2{
+    /* height: 0.23rem;
+    text-align: center; */
+    display: block;
+}
+.sz h2 img{
+   width: 100%;
+   height: 100%;
+}
+.xnav{
+    width: 3.75rem;
+    height: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    transform: translate3d(0.5rem);
+    transition-duration: 0ms;
+}
+.xnav ul{
+    height: 1rem;
+}
+.xnav li{
+    float: left;
+    width: 0.71rem;
+    height: 0.86rem;
+    display: block;
+    margin-right: 0.2rem;
+    margin-left: 0.3rem;
+    position: relative;
+
+}
+.xnav li span{
+    display:block;
+    width: 0.7rem;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    text-align: center;
+}
+.xnav ul li img{
+    width: 100%;
+    height: 80%;
+}
+.gl{
+    width: 3.75rem;
+    height: 4.18rem;
+    position: relative;
+}
+.gl h2{
+    display: block;
+}
+.gl h2 img{
+   width: 100%;
+   height: 100%;
+}
+.bj{
+    width: 3.75rem;
+    height: 1.06rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/hua_bg_93d6ad5.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+}
+.ggt{
+    width: 3.65rem;
+    margin: .19rem auto .06rem;
+    position: relative;
+    overflow: hidden;
+    
+}
+.ggt a{
+    width: 1.10rem;
+    height: 1rem;
+    margin-left: 0.1rem;
+    float: left;
+}
+.ggt a img{
+    width: 100%;
+}
+.ggt a p{
+    width: 100%;
+    height: 0.18rem;
+    font-size: 0.12rem;
+    color: #666;
+    text-align: center;
+    line-height: 0.16rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #fff;
+    display: block;
+}
+.box1{
+   width: 3.75rem;
+   height: 0.32rem;
+}
+.cur{
+    color: #74bd95;
+    background: #fff url(https://yys.res.netease.com/m/gw/20180918135651/img/icon/i_on_32ec342.png) no-repeat center 0.23rem;
+    background-size: 0.49rem 0.02rem;
+}
+.box1 span{
+    width: 0.7rem;
+    height: 0.3rem;
+    font-size: 0.12rem;
+    /* color: #fff; */
+    text-align: center;
+    line-height: 0.3rem;
+    margin-left: 0.02rem;
+    padding-bottom: 0.02rem;
+    position: relative;
+    float: left;
+}
+.box2{
+    width: 3.55rem;
+    height: 1.88rem;
+    overflow: hidden;
+}
+.box2>div{
+    width: 3.4rem;
+    height: 1.86rem;
+    font-size: 12px;
+    margin: 0 auto 0.5rem;
+    border: 0.02rem #81c0a1 solid;
+    border-top: 0;
+    box-sizing: border-box;
+   /* display: none; */
+}
+
+.glnr{
+   display: block;
+}
+ul li{
+    list-style: none;
+}
+.box2>div a{
+    font-size:12px; 
+}
+.box2>div li{
+    width: 3.3rem;
+    margin: 0 auto ;
+}
+.box2>div a p{
+    color: #000;
+    line-height: 0.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box2>div a span{
+    color: #ccc;
+    line-height: 0.16rem;
+}
+
+.trsz{
+    width: 3.75rem;
+    height: 5.5rem;
+    position: relative;
+}
+.trsz h2{
+     font-size: 12px;
+    display: block;
+}
+.trsz h2 img{
+   width: 100%;
+   height: 100%;
+}
+.trsz .szhead{
+    width: 3.55rem;
+    height: 0.34rem;
+    margin: 0 auto;
+}
+.trsz h3{
+    width: 0.7rem;
+    height: 0.34rem;
+    font-size: 0.16rem;
+    color: #333;
+    line-height: 0.34rem;
+    float: left;
+}
+#lbt2{
+    width: 3.55rem;
+    height: 1.5rem;
+    margin: 0 auto;
+}
+#lbt2 img{
+    width: 100%;
+    height: 100%;
+}
+#tb{
+    width: 2.8rem;
+    height: 0.34rem;
+    position: relative;
+    float: right;
+}
+#tb span{
+    width: 0.11rem;
+    height: 0.11rem;
+    margin-left: 0.1rem;
+}
+.bottombj{
+    width: 3.75rem;
+    height: 4.35rem;
+}
+.bottombj img{
+    width: 100%;
+    height: 100%;
+}
+.bottom{
+    width: 3.75rem;
+    height: 3.80rem;
+}
+.bottom ul{
+    background: #fff;
+    margin: 0 auto;
+    padding: 0.25rem 0.15rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    overflow: hidden;
+    font-size: 20px;
+}
+.public{
+    width: 3.75rem;
+    height: 0.675rem;
+    font-size: 14px;
+}
+.public .aa1{
+    width: 0.83rem;
+    height: 0.31rem;
+    color: #4d5369;
+    padding-left: 0.35rem;
+    line-height: 0.31rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/wyds_004e23c.png) no-repeat 0 0;
+    background-size: 0.31rem 0.31rem;
+    display: block;
+    float: left;
+    margin-left: 0.8rem;
+}
+.public .aa2{
+    display: block;
+    width: 0.84rem;
+    height: 0.64rem;
+    color: #4d5369;
+    float: left;
+}
+.bottomblock{
+    width: 3.75rem;
+    height: 2.33rem;
+    border-top:0.5px solid black; 
+}
+.block{
+    font-size: 12px;
+    width: 3.57rem;
+    height: 1.97rem;
+    margin-left: 0.15rem;
+}
+.block p{
+    width: 3.57rem;
+    height: 0.18rem;
+    line-height: 0.18rem;
+}
+.szbjt{
+    width: 3.75rem;
+    height: 3.55rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/hua_bg2_428e6af.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0.9rem;
+    left: 0;
+}
+.szzp{
+    width: 3.55rem;
+    height: 0.34rem;
+    margin: 0.1rem auto 0;
+    position: relative;
+}
+.szzp h3{
+    width: 0.7rem;
+    font-size: .0.18rem;
+    color: #333;
+    line-height: 0.34rem;
+    float: left;
+}
+.lbt3{
+    width: 3.55rem;
+    height: 2.47rem;
+    margin: 0 auto;
+   
+}
+#lbt3{
+   width: 3.55rem;
+   height: 2.47rem;
+   margin: 0 auto;
+  
+}
+#lbt3 .swiper-slide{
+    width: 1.11rem;
+    height: 2.33rem;
+    
+}
+#lbt3 .swiper-slide img{
+    width: 90%;
+    height: 1.88rem;
+    /* margin: 0 auto; */
+}
+#lbt3 .swiper-slide div:nth-of-type(2){
+    margin-left: 0.6rem;
+    margin-right: 0.4rem;
+}
+#lbt3 .swiper-slide p{
+    width: 1.1rem;
+    height: 0.34rem;
+    position: relative;
+}
+#lbt3 .swiper-slide p b{
+   font-size: 14px;
+   line-height: 0.18rem;
+   display: block;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+#lbt3 .swiper-slide p span{
+    font-size: 14px;
+    line-height: 0.16rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;  
+}
+.syj{
+    width: 3.75rem;
+    height: 5.52rem;
+    position: relative;
+}
+.syj h2{
+     font-size: 12px;
+    display: block;
+}
+.syj h2 img{
+   width: 100%;
+   height: 100%;
+}
+.syj ul{
+    width: 3.55rem;
+    height: 4.05rem;
+    margin: 0 auto;
+}
+.syj ul li{
+    display: block;
+    float: left;
+    width: 1.72rem;
+    height: 1.25rem;
+}
+.syj ul li img{
+    width: 100%;
+    height: 80%;
+}
+.syj ul li p{
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    /* line-height: 0.22rem; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.syj li:nth-of-type(2){
+    margin-left: 0.11rem;
+}
+.syj li:nth-of-type(4){
+    margin-left: 0.11rem;
+}
+.syj li:nth-of-type(6){
+    margin-left: 0.11rem;
+}
+.more p{
+    font-size:12px;
+    color: #666;
+    text-align: center;
+
+}
+s{
+    width: 0.12rem;
+    height: 0.12rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/icon/i_more3_ded5377.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 1.50rem; 
+    margin-top: 0.02rem;
+}
